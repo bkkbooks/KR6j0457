@@ -1,0 +1,51 @@
+canonical_identifier: bkk:krp/KR6j0457/v1
+canonical_location: https://kanripo.org/bkk/KR6j0457/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 穢跡金剛禁百變法經
+  identifiers:
+    alt_id:
+    - T21n1229
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1229.xml
+    old_id: T21n1229
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 甲
+  label: 甲
+  source_xml_id: wit4
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0457_000.yaml, hash: 'sha256:5de1322535983f42a9c239e391943305e0ebc76b743cd0487d95cf52a6a4b748'}
+  - {seq: 1, filename: KR6j0457_001.yaml, hash: 'sha256:baffd8b0e1295240ecbe2bfd2ebf3408c6ef8e21d6b4bd6b2fe66fb20e009e2b'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0457_001.markers.yaml, hash: 'sha256:dcc7710e76e3070cb6b78d3a7d0175a7df4493c4d5b67f832c617e39f1f0a5b8'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0457_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1550
+  label: 穢跡金剛禁百變法經一卷
+  type: juan
+  level: 1
+hash: sha256:d323b4dcdde65046c59bda502e7e69fb2015b728db9b3cb8fe831667a2f168ba
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
