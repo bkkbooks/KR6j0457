@@ -31,9 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0457_000.yaml, hash: 'sha256:5de1322535983f42a9c239e391943305e0ebc76b743cd0487d95cf52a6a4b748'}
-  - {seq: 1, filename: KR6j0457_001.yaml, hash: 'sha256:baffd8b0e1295240ecbe2bfd2ebf3408c6ef8e21d6b4bd6b2fe66fb20e009e2b'}
+  - {seq: 1, filename: KR6j0457_001.yaml, hash: 'sha256:1f547a5ae8a16635d76da181bc61e4d95a71f102bedc20c7bbda935737660050'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6j0457_001.markers.yaml, hash: 'sha256:dcc7710e76e3070cb6b78d3a7d0175a7df4493c4d5b67f832c617e39f1f0a5b8'}
+  - {seq: 0, role: markers, filename: assets/KR6j0457_000.markers.yaml, hash: 'sha256:85afa24a6180a66571f1837f9b228aa4b40fd2251bc5ddc1ee567e748e892cd5'}
+  - {seq: 1, role: markers, filename: assets/KR6j0457_001.markers.yaml, hash: 'sha256:1445c733d4cd97be6ab727075a210cd16ea0b4b2e3df07553ed512fcc15d3004'}
 table_of_contents:
 - ref:
     seq: 1
@@ -45,7 +46,4 @@ table_of_contents:
   label: 穢跡金剛禁百變法經一卷
   type: juan
   level: 1
-hash: sha256:d323b4dcdde65046c59bda502e7e69fb2015b728db9b3cb8fe831667a2f168ba
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:41babbcf6100b8753f2962c8ecd1f832acca9984994e8e7de9b581c2bea921bc
