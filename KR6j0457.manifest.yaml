@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6j0457/v1
 canonical_location: https://kanripo.org/bkk/KR6j0457/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 穢跡金剛禁百變法經
   identifiers:
@@ -31,10 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0457_000.yaml, hash: 'sha256:5de1322535983f42a9c239e391943305e0ebc76b743cd0487d95cf52a6a4b748'}
-  - {seq: 1, filename: KR6j0457_001.yaml, hash: 'sha256:1f547a5ae8a16635d76da181bc61e4d95a71f102bedc20c7bbda935737660050'}
+  - {seq: 1, filename: KR6j0457_001.yaml, hash: 'sha256:0ec6476b6d9ef86357315c82df765fd2f310ab2d1846839db8106448691f24d7'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6j0457_000.markers.yaml, hash: 'sha256:85afa24a6180a66571f1837f9b228aa4b40fd2251bc5ddc1ee567e748e892cd5'}
-  - {seq: 1, role: markers, filename: assets/KR6j0457_001.markers.yaml, hash: 'sha256:1445c733d4cd97be6ab727075a210cd16ea0b4b2e3df07553ed512fcc15d3004'}
+  - {seq: 1, role: markers, filename: assets/KR6j0457_001.markers.yaml, hash: 'sha256:5acae9c5c04445ab22b4cbfb776bf651f1fba70f25b48f74650d903e3fb78f00'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,4 +46,7 @@ table_of_contents:
   label: 穢跡金剛禁百變法經一卷
   type: juan
   level: 1
-hash: sha256:41babbcf6100b8753f2962c8ecd1f832acca9984994e8e7de9b581c2bea921bc
+hash: sha256:eb41baa238da60045b669d6027fc22f08b132a145b4dc8286bcbf8e6fd7a542b
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
